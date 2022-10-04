@@ -21,6 +21,7 @@ class LoaderLaunchTransformer : LaunchTransformer {
         init {
             transformers.add(BrandingTransformer)
             transformers.add(TitleScreenTransformer)
+            transformers.add(SplashOverlayTransformer)
             transformers.add(ClientEntrypointTransformer)
             transformers.add(ServerEntrypointTransformer)
             transformers.add(TransformerEntrypointTransformer)
